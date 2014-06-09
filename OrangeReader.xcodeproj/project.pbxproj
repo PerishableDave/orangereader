@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF51B5D5194541910045A1B3 /* PostsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF51B5D4194541910045A1B3 /* PostsController.swift */; };
+		BF9459771943BA2B007C9958 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9459761943BA2B007C9958 /* AppDelegate.swift */; };
+		BF9459791943BA2B007C9958 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9459781943BA2B007C9958 /* ViewController.swift */; };
+		BF94597C1943BA2B007C9958 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF94597A1943BA2B007C9958 /* Main.storyboard */; };
+		BF94597E1943BA2B007C9958 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF94597D1943BA2B007C9958 /* Images.xcassets */; };
+		BF94598A1943BA2B007C9958 /* OrangeReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9459891943BA2B007C9958 /* OrangeReaderTests.swift */; };
+		BF9459941943BB45007C9958 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9459931943BB45007C9958 /* APIClient.swift */; };
+		BF9459961943BCE9007C9958 /* NSURLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9459951943BCE9007C9958 /* NSURLExtensions.swift */; };
+		BF9459981943C113007C9958 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9459971943C113007C9958 /* Post.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF9459841943BA2B007C9958 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF9459691943BA2B007C9958 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF9459701943BA2B007C9958;
+			remoteInfo = OrangeReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF51B5D4194541910045A1B3 /* PostsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostsController.swift; path = Source/PostsController.swift; sourceTree = "<group>"; };
+		BF9459711943BA2B007C9958 /* OrangeReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrangeReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9459751943BA2B007C9958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF9459761943BA2B007C9958 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF9459781943BA2B007C9958 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF94597B1943BA2B007C9958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF94597D1943BA2B007C9958 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BF9459831943BA2B007C9958 /* OrangeReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrangeReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9459881943BA2B007C9958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF9459891943BA2B007C9958 /* OrangeReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeReaderTests.swift; sourceTree = "<group>"; };
+		BF9459931943BB45007C9958 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIClient.swift; path = Source/APIClient.swift; sourceTree = "<group>"; };
+		BF9459951943BCE9007C9958 /* NSURLExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSURLExtensions.swift; path = Source/NSURLExtensions.swift; sourceTree = "<group>"; };
+		BF9459971943C113007C9958 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Post.swift; path = Source/Post.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF94596E1943BA2B007C9958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9459801943BA2B007C9958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF9459681943BA2B007C9958 = {
+			isa = PBXGroup;
+			children = (
+				BF9459731943BA2B007C9958 /* OrangeReader */,
+				BF9459861943BA2B007C9958 /* OrangeReaderTests */,
+				BF9459721943BA2B007C9958 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF9459721943BA2B007C9958 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF9459711943BA2B007C9958 /* OrangeReader.app */,
+				BF9459831943BA2B007C9958 /* OrangeReaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF9459731943BA2B007C9958 /* OrangeReader */ = {
+			isa = PBXGroup;
+			children = (
+				BF9459761943BA2B007C9958 /* AppDelegate.swift */,
+				BF9459781943BA2B007C9958 /* ViewController.swift */,
+				BF94597A1943BA2B007C9958 /* Main.storyboard */,
+				BF94597D1943BA2B007C9958 /* Images.xcassets */,
+				BF9459741943BA2B007C9958 /* Supporting Files */,
+				BF9459931943BB45007C9958 /* APIClient.swift */,
+				BF9459951943BCE9007C9958 /* NSURLExtensions.swift */,
+				BF9459971943C113007C9958 /* Post.swift */,
+				BF51B5D4194541910045A1B3 /* PostsController.swift */,
+			);
+			path = OrangeReader;
+			sourceTree = "<group>";
+		};
+		BF9459741943BA2B007C9958 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF9459751943BA2B007C9958 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF9459861943BA2B007C9958 /* OrangeReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF9459891943BA2B007C9958 /* OrangeReaderTests.swift */,
+				BF9459871943BA2B007C9958 /* Supporting Files */,
+			);
+			path = OrangeReaderTests;
+			sourceTree = "<group>";
+		};
+		BF9459871943BA2B007C9958 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF9459881943BA2B007C9958 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF9459701943BA2B007C9958 /* OrangeReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF94598D1943BA2B007C9958 /* Build configuration list for PBXNativeTarget "OrangeReader" */;
+			buildPhases = (
+				BF94596D1943BA2B007C9958 /* Sources */,
+				BF94596E1943BA2B007C9958 /* Frameworks */,
+				BF94596F1943BA2B007C9958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrangeReader;
+			productName = OrangeReader;
+			productReference = BF9459711943BA2B007C9958 /* OrangeReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF9459821943BA2B007C9958 /* OrangeReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF9459901943BA2B007C9958 /* Build configuration list for PBXNativeTarget "OrangeReaderTests" */;
+			buildPhases = (
+				BF94597F1943BA2B007C9958 /* Sources */,
+				BF9459801943BA2B007C9958 /* Frameworks */,
+				BF9459811943BA2B007C9958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF9459851943BA2B007C9958 /* PBXTargetDependency */,
+			);
+			name = OrangeReaderTests;
+			productName = OrangeReaderTests;
+			productReference = BF9459831943BA2B007C9958 /* OrangeReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF9459691943BA2B007C9958 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Wetnose Labs";
+				TargetAttributes = {
+					BF9459701943BA2B007C9958 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					BF9459821943BA2B007C9958 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = BF9459701943BA2B007C9958;
+					};
+				};
+			};
+			buildConfigurationList = BF94596C1943BA2B007C9958 /* Build configuration list for PBXProject "OrangeReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF9459681943BA2B007C9958;
+			productRefGroup = BF9459721943BA2B007C9958 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF9459701943BA2B007C9958 /* OrangeReader */,
+				BF9459821943BA2B007C9958 /* OrangeReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF94596F1943BA2B007C9958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF94597C1943BA2B007C9958 /* Main.storyboard in Resources */,
+				BF94597E1943BA2B007C9958 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9459811943BA2B007C9958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF94596D1943BA2B007C9958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9459961943BCE9007C9958 /* NSURLExtensions.swift in Sources */,
+				BF51B5D5194541910045A1B3 /* PostsController.swift in Sources */,
+				BF9459791943BA2B007C9958 /* ViewController.swift in Sources */,
+				BF9459771943BA2B007C9958 /* AppDelegate.swift in Sources */,
+				BF9459941943BB45007C9958 /* APIClient.swift in Sources */,
+				BF9459981943C113007C9958 /* Post.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF94597F1943BA2B007C9958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF94598A1943BA2B007C9958 /* OrangeReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF9459851943BA2B007C9958 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF9459701943BA2B007C9958 /* OrangeReader */;
+			targetProxy = BF9459841943BA2B007C9958 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF94597A1943BA2B007C9958 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF94597B1943BA2B007C9958 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF94598B1943BA2B007C9958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF94598C1943BA2B007C9958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF94598E1943BA2B007C9958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = OrangeReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF94598F1943BA2B007C9958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = OrangeReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF9459911943BA2B007C9958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OrangeReader.app/OrangeReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OrangeReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		BF9459921943BA2B007C9958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OrangeReader.app/OrangeReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OrangeReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF94596C1943BA2B007C9958 /* Build configuration list for PBXProject "OrangeReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF94598B1943BA2B007C9958 /* Debug */,
+				BF94598C1943BA2B007C9958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF94598D1943BA2B007C9958 /* Build configuration list for PBXNativeTarget "OrangeReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF94598E1943BA2B007C9958 /* Debug */,
+				BF94598F1943BA2B007C9958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF9459901943BA2B007C9958 /* Build configuration list for PBXNativeTarget "OrangeReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9459911943BA2B007C9958 /* Debug */,
+				BF9459921943BA2B007C9958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF9459691943BA2B007C9958 /* Project object */;
+}
